@@ -3,6 +3,7 @@
 A complete fullstack web application for booking travel experiences with real-time slot availability.
 
 **Live Demo:** https://bookit-experiences-slots.vercel.app/ 
+
 **Repository:** https://github.com/himanshu-firke/bookit-experiences-slots/
 
 ---
@@ -392,8 +393,11 @@ Next.js will auto-assign 3001 if 3000 is busy.
 ## 👨‍💻 Developer
 
 **Name:** Himanshu Firke 
+
 **Email:** himanshufirke04@gmail.com 
+
 **LinkedIn:** https://www.linkedin.com/in/himanshufirke/
+
 **Portfolio:** https://himanshu-portfolio-01.vercel.app/
 
 ---
