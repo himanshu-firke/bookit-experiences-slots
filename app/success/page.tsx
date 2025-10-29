@@ -2,9 +2,10 @@
 
 import { useRouter, useSearchParams } from "next/navigation"
 import { CheckCircle2 } from "lucide-react"
+import { Suspense } from "react"
 import Navbar from "@/components/navbar"
 
-export default function SuccessPage() {
+function SuccessContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
   
@@ -73,5 +74,13 @@ export default function SuccessPage() {
         </div>
       </div>
     </div>
+  )
+}
+
+export default function SuccessPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-white flex items-center justify-center"><div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900"></div></div>}>
+      <SuccessContent />
+    </Suspense>
   )
 }

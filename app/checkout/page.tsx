@@ -2,12 +2,12 @@
 
 import { useRouter, useSearchParams } from "next/navigation"
 import { ArrowLeft, Plus, Minus } from "lucide-react"
-import { useState } from "react"
+import { useState, Suspense } from "react"
 import Navbar from "@/components/navbar"
 import { createBooking, validatePromoCode } from "@/lib/api"
 import { LoadingSpinner } from "@/components/ui/loading-spinner"
 
-export default function CheckoutPage() {
+function CheckoutContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
   
@@ -346,5 +346,13 @@ export default function CheckoutPage() {
         </div>
       </div>
     </div>
+  )
+}
+
+export default function CheckoutPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-white"><Navbar disableSearch={true} /><div className="flex items-center justify-center min-h-screen"><LoadingSpinner /></div></div>}>
+      <CheckoutContent />
+    </Suspense>
   )
 }
