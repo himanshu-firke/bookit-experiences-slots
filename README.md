@@ -4,7 +4,7 @@ A complete fullstack web application for booking travel experiences with real-ti
 
 **Live Demo:** https://bookit-experiences-slots.vercel.app/ 
 
-**Repository:** https://github.com/himanshu-firke/bookit-experiences-slots/
+**Backend API:** https://bookit-backend-e7ug.onrender.com/api
 
 ---
 
