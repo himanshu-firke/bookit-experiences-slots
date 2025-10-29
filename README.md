@@ -2,8 +2,8 @@
 
 A complete fullstack web application for booking travel experiences with real-time slot availability.
 
-**Live Demo:** [Add your hosted URL here after deployment]  
-**Repository:** [Add your GitHub repo link here]
+**Live Demo:** https://bookit-experiences-slots.vercel.app/ 
+**Repository:** https://github.com/himanshu-firke/bookit-experiences-slots/
 
 ---
 
@@ -391,16 +391,10 @@ Next.js will auto-assign 3001 if 3000 is busy.
 
 ## 👨‍💻 Developer
 
-**Name:** [Your Name]  
-**Email:** [Your Email]  
-**LinkedIn:** [Your LinkedIn]  
-**Portfolio:** [Your Portfolio]
-
----
-
-## 📄 License
-
-This project is created as part of a fullstack developer assignment.
+**Name:** Himanshu Firke 
+**Email:** himanshufirke04@gmail.com 
+**LinkedIn:** https://www.linkedin.com/in/himanshufirke/
+**Portfolio:** https://himanshu-portfolio-01.vercel.app/
 
 ---
 
@@ -414,7 +408,7 @@ This project is created as part of a fullstack developer assignment.
 
 ## 📧 Support
 
-For any questions or issues, please contact [your-email@example.com]
+For any questions or issues, please contact [himanshufirke04@gmail.com]
 
 ---
 
